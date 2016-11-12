@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/todo-list -Dhttp.port=9000 -DapplyEvolutions.default=true
+web: target/universal/stage/bin/todo-list -Dhttp.port=$PORT -DapplyEvolutions.default=true
